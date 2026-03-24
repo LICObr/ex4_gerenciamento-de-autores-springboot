@@ -21,6 +21,8 @@ public class Autor {
     @Column(name = "data_nascimento")
     private LocalDate dataNascimento;
 
+    public Autor() {
+    }
 
     public Long getId() {
         return id;
